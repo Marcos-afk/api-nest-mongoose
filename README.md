@@ -19,55 +19,57 @@
     <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
   <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
 </p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## Descrição
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) repositório inicial do framework TypeScript.
 
-## Installation
+## Objetivo
+
+Esse é um projeto back-end de estudos. Tem por objetivo construir um sistema com registro,login e autenticação.
+
+## Ferramentas
+
+- [Class-Transformer](https://www.npmjs.com/package/class-transformer)
+- [Class-Validator](https://www.npmjs.com/package/class-validator)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
+- [Jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+- [Passport](https://www.npmjs.com/package/passport)
+- [Passport-Jwt](https://www.npmjs.com/package/passport-jwt)
+- [Bcrypt](https://www.npmjs.com/package/bcrypt)
+
+## Conexão Banco de Dados
+
+- [Mongoose](https://www.npmjs.com/package/mongoose)
+
+## Padronização de código
+
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [EditorConfig](https://editorconfig.org/)
+
+## 👨🏻‍💻 Como trabalhar no projeto
+
+Para você que entrou na equipe de Backend e quer saber como dar continuidade no projeto, confira esse [passo-a-passo](https://github.com/Marcos-afk/api-nest-mongoose/blob/main/CONTRIBUTING.md)
+
+## Executando o projeto
 
 ```bash
-$ npm install
+// Instale as dependências
+
+npm install
+
+// Concluindo a instalação rode
+
+npm run start:dev
 ```
 
-## Running the app
+## Status do Projeto
 
-```bash
-# development
-$ npm run start
+<h4 align="left">
+	🚧   Finalizado   🚧
+</h4>
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
+## Licença
 
 Nest is [MIT licensed](LICENSE).
